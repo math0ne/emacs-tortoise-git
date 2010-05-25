@@ -7,6 +7,6 @@
 # San Francisco, California 94105, USA.
 ##############################################################################
 
-This is a simple interface to TortoiseGIT on windows.  For now it ony supports log, diff, blame, commit, revert and help.  This is based on the library for tortoiseSVN I found here: http://www.emacswiki.org/emacs/TortoiseSVN
+This is a simple interface to TortoiseGIT on windows.  For now it only supports log, diff, blame, commit, revert and help.  This is based on the library for tortoiseSVN I found here: http://www.emacswiki.org/emacs/TortoiseSVN
 
 Only tested on NTEmacs.
