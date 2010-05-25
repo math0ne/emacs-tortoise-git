@@ -55,23 +55,17 @@
   (concat "/cygdrive/c/Progra~1/TortoiseGit/bin/TortoiseProc /command:help")))
 
 ; add key bind
-(global-set-key "\C-xvgl" 'tortoise-git-log)
-(global-set-key "\C-xvgL" 'tortoise-git-log-select)
-
-(global-set-key "\C-xvg=" 'tortoise-git-diff)
-
-(global-set-key "\C-xvgb" 'tortoise-git-blame)
-
-(global-set-key "\C-xvgc" 'tortoise-git-commit)
-(global-set-key "\C-xvgC" 'tortoise-git-commit-select)
-
-(global-set-key "\C-xvgs" 'tortoise-git-repostatus)
-(global-set-key "\C-xvgS" 'tortoise-git-repostatus-select)
-
-(global-set-key "\C-xvgr" 'tortoise-git-revert)
-(global-set-key "\C-xvgR" 'tortoise-git-revert-select)
-
-(global-set-key "\C-xvgh" 'tortoise-git-help)
+(global-set-key "\C-xgl" 'tortoise-git-log)
+(global-set-key "\C-xgL" 'tortoise-git-log-select)
+(global-set-key "\C-xg=" 'tortoise-git-diff)
+(global-set-key "\C-xgb" 'tortoise-git-blame)
+(global-set-key "\C-xgc" 'tortoise-git-commit)
+(global-set-key "\C-xgC" 'tortoise-git-commit-select)
+(global-set-key "\C-xgs" 'tortoise-git-repostatus)
+(global-set-key "\C-xgS" 'tortoise-git-repostatus-select)
+(global-set-key "\C-xgr" 'tortoise-git-revert)
+(global-set-key "\C-xgR" 'tortoise-git-revert-select)
+(global-set-key "\C-xgh" 'tortoise-git-help)
 
 (provide 'tortoise-git)
 
