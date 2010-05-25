@@ -1,0 +1,12 @@
+##############################################################################
+# Copyright (c) 2010 Aidan McQuay
+#
+# This work is licenced under the Creative Commons BSD License License. To
+# view a copy of this licence, visit http://creativecommons.org/licenses/BSD/
+# or send a letter to Creative Commons, 171 Second Street, Suite 300,
+# San Francisco, California 94105, USA.
+##############################################################################
+
+This is a simple interface to TortoiseGIT on windows.  For now it ony supports log, diff, blame, commit, revert and help.  This is based on the library for tortoiseSVN I found here: http://www.emacswiki.org/emacs/TortoiseSVN
+
+Only tested on NTEmacs.
