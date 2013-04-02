@@ -52,7 +52,7 @@
 (defun tortoise-git-help ()
  (interactive)
  (start-process-shell-command "tortoise-git" nil
-  (concat "/cygdrive/c/Progra~1/TortoiseGit/bin/TortoiseGitProc /command:help")))
+  (concat "c:/Progra~1/TortoiseGit/bin/TortoiseGitProc /command:help")))
 
 ; add key bind
 (global-set-key "\C-xgl" 'tortoise-git-log)
