@@ -12,7 +12,7 @@
 
 (defun tortoise-git-command (command filename)
   (start-process "tortoise-git" "foo"
-   "c:/Progra~1/TortoiseGit/bin/TortoiseProc" (concat "/command:" command) 
+   "c:/Progra~1/TortoiseGit/bin/TortoiseGitProc" (concat "/command:" command) 
 	   (concat "/path:" (replace-regexp-in-string "Program Files" 
            (regexp-quote "Progra~1") (expand-file-name filename))
             "")))
@@ -52,7 +52,7 @@
 (defun tortoise-git-help ()
  (interactive)
  (start-process-shell-command "tortoise-git" nil
-  (concat "/cygdrive/c/Progra~1/TortoiseGit/bin/TortoiseProc /command:help")))
+  (concat "c:/Progra~1/TortoiseGit/bin/TortoiseGitProc /command:help")))
 
 ; add key bind
 (global-set-key "\C-xgl" 'tortoise-git-log)
